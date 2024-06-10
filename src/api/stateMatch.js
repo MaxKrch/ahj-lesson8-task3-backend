@@ -54,15 +54,15 @@ class State {
 			parts: [
 				{
 					name: 'First Half', 
-					duration: 270000
+					duration: 600000
 				},
 				{
 					name: 'Half-time', 
-					duration: 30000
+					duration: 60000
 				},
 				{
 					name:	'Second Half',
-					duration: 270000
+					duration: 600000
 				}
 			],
 			live: {
@@ -75,7 +75,7 @@ class State {
 					timer: null,
 					time: 600000
 				},
-				start: 10000,
+				start: 6000,
 				events: {
 					timer: null,
 				}
