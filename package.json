@@ -1,0 +1,22 @@
+{
+  "name": "lesson8-task2-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever src/server.js",
+    "prestart": "npm install",
+    "watch": "forever -w src/server.js"
+  },
+  "author": "MaxKrch",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "forever": "^4.0.3",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "uuid": "^9.0.1"
+  }
+}
